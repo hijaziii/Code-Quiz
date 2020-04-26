@@ -1,0 +1,79 @@
+/*
+====================
+    Navigator
+====================
+*/
+
+.Navigator{
+    display: block;
+    background-color: black;
+    display: inline-block;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: auto;
+  
+}
+
+.Navigator:hover {
+    transition-duration: 0.4s;
+    background-color:red;
+}
+
+#score { 
+    color: whitesmoke;
+    text-decoration: red;
+    
+} 
+h4 {
+    padding: 10px 8px 10px 8px;
+   
+}
+
+a {
+    text-decoration: whitesmoke;
+    color: black;
+   
+}
+
+/* 
+====================
+    Content
+==================== */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgba(114, 109, 109, 0.555);
+}
+
+
+#content{
+    text-align: center;
+    padding: 12vh;
+}
+
+#initial {
+    font-size: x-large;
+}
+
+
+button {
+    border: none;
+    background-color:black;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px 16px 10px 16px;
+    font-size: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 4px;
+}
+
+button:hover {
+    transition-duration: 0.4s;
+     background-color:red;
+} 
+
+h1 {
+    font-size: xx-large;
+}
